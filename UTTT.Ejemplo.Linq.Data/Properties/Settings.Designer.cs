@@ -45,5 +45,15 @@ namespace UTTT.Ejemplo.Linq.Data.Properties {
                 return ((string)(this["dbManualitoConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-9BS51QGP\\SQL;Initial Catalog=Manual;User ID=sa;Password=1234")]
+        public string ManualConnectionString {
+            get {
+                return ((string)(this["ManualConnectionString"]));
+            }
+        }
     }
 }

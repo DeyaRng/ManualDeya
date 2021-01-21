@@ -71,6 +71,10 @@ namespace UTTT.Ejemplo.Persona
                     if (this.idPersona == 0)
                     {
                         this.lblAccion.Text = "Agregar";
+                        DateTime tiempo = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+                        this.Calendar1.TodaysDate = tiempo;
+                        this.Calendar1.SelectedDate = tiempo;
+                        
                     }
                     else
                     {
@@ -79,9 +83,22 @@ namespace UTTT.Ejemplo.Persona
                         this.txtAPaterno.Text = this.baseEntity.strAPaterno;
                         this.txtAMaterno.Text = this.baseEntity.strAMaterno;
                         this.txtClaveUnica.Text = this.baseEntity.strClaveUnica;
+                        DateTime? fechaNacimiento= this.baseEntity.dteFechaNacimiento;
+                        if (fechaNacimiento !=null)
+                        {
+                            this.Calendar1.TodaysDate = (DateTime)fechaNacimiento;
+                            this.Calendar1.SelectedDate = (DateTime)fechaNacimiento;
+
+                        }
+                        
+
                         this.setItem(ref this.ddlSexo, baseEntity.CatSexo.strValor);
                     }                
                 }
+
+                //DateTime tiempo = new DateTime(2020, 06, 30);
+                //this.Calendar1.TodaysDate = tiempo;
+                //this.Calendar1.SelectedDate = tiempo;
 
             }
             catch (Exception _e)
@@ -100,16 +117,28 @@ namespace UTTT.Ejemplo.Persona
                 UTTT.Ejemplo.Linq.Data.Entity.Persona persona = new Linq.Data.Entity.Persona();
                 if (this.idPersona == 0)
                 {
+                    
                     persona.strClaveUnica = this.txtClaveUnica.Text.Trim();
                     persona.strNombre = this.txtNombre.Text.Trim();
                     persona.strAMaterno = this.txtAMaterno.Text.Trim();
                     persona.strAPaterno = this.txtAPaterno.Text.Trim();
                     persona.idCatSexo = int.Parse(this.ddlSexo.Text);
-                    dcGuardar.GetTable<UTTT.Ejemplo.Linq.Data.Entity.Persona>().InsertOnSubmit(persona);
-                    dcGuardar.SubmitChanges();
-                    this.showMessage("El registro se agrego correctamente.");
-                    this.Response.Redirect("~/PersonaPrincipal.aspx", false);
-                    
+                    DateTime fechaNacimiento = this.Calendar1.SelectedDate.Date;
+                    int edad = ((TimeSpan)(DateTime.Now - fechaNacimiento)).Days;
+                    if (edad < 6575)
+                    {
+                        this.showMessage("eres menor de edad");
+
+                    }
+                    else
+                    {
+                        persona.dteFechaNacimiento = fechaNacimiento;
+                        dcGuardar.GetTable<UTTT.Ejemplo.Linq.Data.Entity.Persona>().InsertOnSubmit(persona);
+                        dcGuardar.SubmitChanges();
+                        this.showMessage("El registro se agrego correctamente.");
+                        this.Response.Redirect("~/PersonaPrincipal.aspx", false);
+                    }
+
                 }
                 if (this.idPersona > 0)
                 {
