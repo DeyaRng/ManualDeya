@@ -20,3 +20,4 @@ C:\Users\Deya\Documents\Desarrollo\Desarrollo Web\Manuales\Manual\UTTT.Ejemplo.P
 C:\Users\Deya\Documents\Desarrollo\Desarrollo Web\Manuales\Manual\UTTT.Ejemplo.Persona\UTTT.Ejemplo.Persona.Data\obj\Debug\UTTT.Ejemplo.Persona.Data.csproj.CoreCompileInputs.cache
 C:\Users\Deya\Documents\Desarrollo\Desarrollo Web\Manuales\Manual\UTTT.Ejemplo.Persona\UTTT.Ejemplo.Persona.Data\obj\Debug\UTTT.Ejemplo.Persona.Data.dll
 C:\Users\Deya\Documents\Desarrollo\Desarrollo Web\Manuales\Manual\UTTT.Ejemplo.Persona\UTTT.Ejemplo.Persona.Data\obj\Debug\UTTT.Ejemplo.Persona.Data.pdb
+C:\Users\Deya\Documents\Desarrollo\Desarrollo Web\Manuales\Manual\UTTT.Ejemplo.Persona\UTTT.Ejemplo.Persona.Data\obj\Debug\UTTT.Ejemplo.Persona.Data.csprojAssemblyReference.cache

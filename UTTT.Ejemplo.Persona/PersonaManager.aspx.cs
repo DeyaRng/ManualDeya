@@ -83,8 +83,8 @@ namespace UTTT.Ejemplo.Persona
                         this.txtAPaterno.Text = this.baseEntity.strAPaterno;
                         this.txtAMaterno.Text = this.baseEntity.strAMaterno;
                         this.txtClaveUnica.Text = this.baseEntity.strClaveUnica;
-                        DateTime? fechaNacimiento= this.baseEntity.dteFechaNacimiento;
-                        if (fechaNacimiento !=null)
+                        DateTime? fechaNacimiento = this.baseEntity.dteFechaNacimiento;
+                        if (fechaNacimiento != null)
                         {
                             this.Calendar1.TodaysDate = (DateTime)fechaNacimiento;
                             this.Calendar1.SelectedDate = (DateTime)fechaNacimiento;
@@ -124,6 +124,9 @@ namespace UTTT.Ejemplo.Persona
                     persona.strAPaterno = this.txtAPaterno.Text.Trim();
                     persona.idCatSexo = int.Parse(this.ddlSexo.Text);
                     DateTime fechaNacimiento = this.Calendar1.SelectedDate.Date;
+                    persona.email = this.Txtmail.Text.Trim();
+                    persona.rfc = this.Txtrfc.Text.Trim();
+                    persona.cp = this.Txtcp.Text.Trim();
                     int edad = ((TimeSpan)(DateTime.Now - fechaNacimiento)).Days;
                     if (edad < 6575)
                     {
@@ -209,5 +212,10 @@ namespace UTTT.Ejemplo.Persona
         }
 
         #endregion
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

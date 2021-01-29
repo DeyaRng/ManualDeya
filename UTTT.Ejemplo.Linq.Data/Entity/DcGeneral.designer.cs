@@ -451,6 +451,14 @@ namespace UTTT.Ejemplo.Linq.Data.Entity
 		
 		private int _idCatSexo;
 		
+		private System.Nullable<System.DateTime> _dteFechaNacimiento;
+		
+		private string _email;
+		
+		private string _rfc;
+		
+		private string _cp;
+		
 		private EntitySet<Direccion> _Direccion;
 		
 		private EntityRef<CatSexo> _CatSexo;
@@ -471,6 +479,14 @@ namespace UTTT.Ejemplo.Linq.Data.Entity
     partial void OnstrAMaternoChanged();
     partial void OnidCatSexoChanging(int value);
     partial void OnidCatSexoChanged();
+    partial void OndteFechaNacimientoChanging(System.Nullable<System.DateTime> value);
+    partial void OndteFechaNacimientoChanged();
+    partial void OnemailChanging(string value);
+    partial void OnemailChanged();
+    partial void OnrfcChanging(string value);
+    partial void OnrfcChanged();
+    partial void OncpChanging(string value);
+    partial void OncpChanged();
     #endregion
 		
 		public Persona()
@@ -600,6 +616,86 @@ namespace UTTT.Ejemplo.Linq.Data.Entity
 					this._idCatSexo = value;
 					this.SendPropertyChanged("idCatSexo");
 					this.OnidCatSexoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_dteFechaNacimiento", DbType="DateTime")]
+		public System.Nullable<System.DateTime> dteFechaNacimiento
+		{
+			get
+			{
+				return this._dteFechaNacimiento;
+			}
+			set
+			{
+				if ((this._dteFechaNacimiento != value))
+				{
+					this.OndteFechaNacimientoChanging(value);
+					this.SendPropertyChanging();
+					this._dteFechaNacimiento = value;
+					this.SendPropertyChanged("dteFechaNacimiento");
+					this.OndteFechaNacimientoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_email", DbType="VarChar(50)")]
+		public string email
+		{
+			get
+			{
+				return this._email;
+			}
+			set
+			{
+				if ((this._email != value))
+				{
+					this.OnemailChanging(value);
+					this.SendPropertyChanging();
+					this._email = value;
+					this.SendPropertyChanged("email");
+					this.OnemailChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rfc", DbType="VarChar(50)")]
+		public string rfc
+		{
+			get
+			{
+				return this._rfc;
+			}
+			set
+			{
+				if ((this._rfc != value))
+				{
+					this.OnrfcChanging(value);
+					this.SendPropertyChanging();
+					this._rfc = value;
+					this.SendPropertyChanged("rfc");
+					this.OnrfcChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cp", DbType="VarChar(50)")]
+		public string cp
+		{
+			get
+			{
+				return this._cp;
+			}
+			set
+			{
+				if ((this._cp != value))
+				{
+					this.OncpChanging(value);
+					this.SendPropertyChanging();
+					this._cp = value;
+					this.SendPropertyChanged("cp");
+					this.OncpChanged();
 				}
 			}
 		}

@@ -2,36 +2,36 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DcGeneral">
   <DataContextMoniker Name="/DcGeneralDataContext" />
   <nestedChildShapes>
-    <classShape Id="dc2977d5-51ea-4f8b-925b-e84d354ba32e" absoluteBounds="4.125, 1.5, 2, 1.3862939453125">
+    <classShape Id="2be34b6d-6c4a-4eb1-bf62-02f7ab1ae61a" absoluteBounds="3.125, 0.875, 2, 1.3862939453125">
       <DataClassMoniker Name="/DcGeneralDataContext/CatSexo" />
       <nestedChildShapes>
-        <elementListCompartment Id="01054356-f9ae-46ed-b0fc-ce7369f6debd" absoluteBounds="4.14, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="05db2da6-4c38-4ebc-b5ac-14c37f27f6fe" absoluteBounds="3.14, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="32e7e505-08d8-4063-bb36-6df390711abc" absoluteBounds="2.125, 0.5, 2, 1.7708968098958331">
+    <classShape Id="71a789d0-cbf1-45eb-b595-e12f2bddc578" absoluteBounds="2.875, 2, 2, 1.7708968098958331">
       <DataClassMoniker Name="/DcGeneralDataContext/Direccion" />
       <nestedChildShapes>
-        <elementListCompartment Id="7805b66d-91ee-46c0-b6a1-0fc4ea796ac8" absoluteBounds="2.14, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="82c04aee-1d3c-4ccb-9c99-b212736580bf" absoluteBounds="2.89, 2.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="6d7141cd-346a-490d-b664-ba78c921b758" absoluteBounds="4, 3.875, 2, 1.9631982421875">
+    <classShape Id="c7286690-d58a-42b0-9cbf-fc70e7ab0abc" absoluteBounds="6.375, 2.5, 2, 2.7324039713541666">
       <DataClassMoniker Name="/DcGeneralDataContext/Persona" />
       <nestedChildShapes>
-        <elementListCompartment Id="c672a6d8-9de3-41de-a162-4bd9fe458a74" absoluteBounds="4.015, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="a160b0c0-1048-45be-9372-cbce2b588007" absoluteBounds="6.39, 2.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(4 : 4.85659912109375); (3.0624995 : 4.85659912109375); (3.0624995 : 2.27089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(6.375 : 3.13544840494792); (4.875 : 3.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DcGeneralDataContext/Persona/Persona_Direccion" />
       <nodes>
-        <classShapeMoniker Id="6d7141cd-346a-490d-b664-ba78c921b758" />
-        <classShapeMoniker Id="32e7e505-08d8-4063-bb36-6df390711abc" />
+        <classShapeMoniker Id="c7286690-d58a-42b0-9cbf-fc70e7ab0abc" />
+        <classShapeMoniker Id="71a789d0-cbf1-45eb-b595-e12f2bddc578" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.0625 : 2.8862939453125); (5.0625 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.125 : 1.56814697265625); (7.375 : 1.56814697265625); (7.375 : 2.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/DcGeneralDataContext/CatSexo/CatSexo_Persona" />
       <nodes>
-        <classShapeMoniker Id="dc2977d5-51ea-4f8b-925b-e84d354ba32e" />
-        <classShapeMoniker Id="6d7141cd-346a-490d-b664-ba78c921b758" />
+        <classShapeMoniker Id="2be34b6d-6c4a-4eb1-bf62-02f7ab1ae61a" />
+        <classShapeMoniker Id="c7286690-d58a-42b0-9cbf-fc70e7ab0abc" />
       </nodes>
     </associationConnector>
   </nestedChildShapes>

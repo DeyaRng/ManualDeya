@@ -7,6 +7,5 @@ namespace UTTT.Ejemplo.Linq.Data.Entity
 {
     public partial class Persona
     {
-        public DateTime? dteFechaNacimiento;
     }
 }
