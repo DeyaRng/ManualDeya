@@ -122,6 +122,7 @@
         }
 
     </script>
+    <link href="css/estil.css" rel="stylesheet" />
     
     <title></title>
 </head>
@@ -176,7 +177,7 @@
                 ID="txtNombre" runat="server" Width="249px" ViewStateMode="Disabled"></asp:TextBox>
         
             <asp:RequiredFieldValidator ID="rfdNombre" runat="server" ControlToValidate="txtNombre" ErrorMessage="Campo Obligatorio"></asp:RequiredFieldValidator>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNombre" ErrorMessage="minimo 4 caracteres" ForeColor="#333399" ValidationExpression="^[a-zA-Z]{3,15}"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtNombre" ErrorMessage="minimo 3 caracteres" ForeColor="#333399" ValidationExpression="^[a-zA-Z]{3,15}"></asp:RegularExpressionValidator>
         
         </div>
         <div> 
@@ -245,6 +246,7 @@
     </div>
         <p>
             &nbsp;</p>
+        <asp:Label ID="lblMensajito" runat="server" Text="."></asp:Label>
     </form>
 </body>
 </html>

@@ -10,6 +10,9 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <_PublishTargetUrl>ftp://Deyanira.somee.com/www.Deyanira.somee.com</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/EASendMail.dll">
+      <publishTime>02/01/2021 20:08:48</publishTime>
+    </File>
     <File Include="bin/UTTT.Ejemplo.Linq.Data.dll">
       <publishTime>01/28/2021 18:22:48</publishTime>
     </File>
@@ -20,10 +23,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/28/2021 18:22:48</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Control.dll">
-      <publishTime>01/28/2021 19:42:09</publishTime>
+      <publishTime>02/02/2021 02:33:34</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Control.pdb">
-      <publishTime>01/28/2021 19:42:09</publishTime>
+      <publishTime>02/02/2021 02:33:34</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.Data.dll">
       <publishTime>01/12/2021 22:09:53</publishTime>
@@ -32,13 +35,46 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/12/2021 22:09:53</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.dll">
-      <publishTime>01/28/2021 20:50:50</publishTime>
+      <publishTime>02/02/2021 03:05:09</publishTime>
     </File>
     <File Include="bin/UTTT.Ejemplo.Persona.pdb">
-      <publishTime>01/28/2021 20:50:50</publishTime>
+      <publishTime>02/02/2021 03:05:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>02/02/2021 02:06:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>02/02/2021 02:06:04</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>02/02/2021 02:06:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>02/02/2021 02:06:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>02/02/2021 02:06:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>02/02/2021 02:06:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/02/2021 02:06:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/02/2021 02:06:02</publishTime>
     </File>
     <File Include="controlformato.css">
       <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="css/estil.css">
+      <publishTime>02/02/2021 02:09:55</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -52,11 +88,17 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="DireccionManager.aspx">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
+    <File Include="Error.aspx">
+      <publishTime>02/01/2021 21:32:55</publishTime>
+    </File>
     <File Include="Images/delrecord_16x16.png">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
     <File Include="Images/editrecord_16x16.png">
       <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/fondo.jpg">
+      <publishTime>02/02/2021 02:04:18</publishTime>
     </File>
     <File Include="Images/Pixir-1-1-300x181.png">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -74,7 +116,58 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
     <File Include="PersonaManager.aspx">
-      <publishTime>01/27/2021 04:13:14</publishTime>
+      <publishTime>02/02/2021 02:12:23</publishTime>
+    </File>
+    <File Include="PersonaPrincipal.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="scripts.js">
+      <publishTime>02/01/2021 21:33:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>02/02/2021 02:06:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/02/2021 02:06:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>02/02/2021 02:06:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/02/2021 02:06:01</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>02/02/2021 02:06:01</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>02/02/2021 02:06:01</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>02/02/2021 02:06:00</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>02/02/2021 02:06:00</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>02/02/2021 02:06:00</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>02/02/2021 02:06:00</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>02/02/2021 02:05:59</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>02/02/2021 02:05:59</publishTime>
     </File>
     <File Include="Scripts/jquery-1.4.1-vsdoc.js">
       <publishTime>04/26/2016 13:33:12</publishTime>
@@ -85,8 +178,266 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="Scripts/jquery-1.4.1.min.js">
       <publishTime>04/26/2016 13:33:12</publishTime>
     </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>02/02/2021 02:05:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>02/02/2021 02:05:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>02/02/2021 02:05:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>02/02/2021 02:05:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>02/02/2021 02:05:38</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>02/02/2021 02:05:38</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>02/02/2021 02:05:56</publishTime>
+    </File>
+    <File Include="Scripts/src/index.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/defaults.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/destroy.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/disableEventListeners.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/enableEventListeners.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/placements.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/methods/update.js">
+      <publishTime>02/02/2021 02:05:55</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/applyStyle.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/arrow.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/computeStyle.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/flip.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/hide.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/index.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/inner.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/keepTogether.js">
+      <publishTime>02/02/2021 02:05:54</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/offset.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/preventOverflow.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/modifiers/shift.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/clockwise.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/computeAutoPlacement.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/debounce.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/find.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findCommonOffsetParent.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/findIndex.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBordersSize.js">
+      <publishTime>02/02/2021 02:05:53</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundaries.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getBoundingClientRect.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getClientRect.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getFixedPositionOffsetParent.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetParent.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRect.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositePlacement.js">
+      <publishTime>02/02/2021 02:05:52</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOppositeVariation.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getOuterSizes.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getParentNode.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getPopperOffsets.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceNode.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getReferenceOffsets.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoot.js">
+      <publishTime>02/02/2021 02:05:51</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getRoundedOffsets.js">
+      <publishTime>02/02/2021 02:05:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScroll.js">
+      <publishTime>02/02/2021 02:05:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getScrollParent.js">
+      <publishTime>02/02/2021 02:05:50</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getStyleComputedProperty.js">
+      <publishTime>02/02/2021 02:05:48</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getSupportedPropertyName.js">
+      <publishTime>02/02/2021 02:05:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js">
+      <publishTime>02/02/2021 02:05:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindow.js">
+      <publishTime>02/02/2021 02:05:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/getWindowSizes.js">
+      <publishTime>02/02/2021 02:05:47</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/includeScroll.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/index.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isBrowser.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFixed.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isFunction.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isIE.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierEnabled.js">
+      <publishTime>02/02/2021 02:05:46</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isModifierRequired.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isNumeric.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/isOffsetContainer.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/removeEventListeners.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/runModifiers.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setAttributes.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setStyles.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/src/utils/setupEventListeners.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>02/02/2021 02:05:45</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>02/02/2021 02:05:44</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>02/02/2021 02:05:44</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>02/02/2021 02:05:44</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>02/02/2021 02:05:44</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>02/02/2021 02:05:44</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>02/02/2021 02:05:43</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>02/01/2021 21:34:02</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>01/13/2021 13:11:11</publishTime>
+      <publishTime>02/02/2021 02:33:53</publishTime>
     </File>
   </ItemGroup>
 </Project>
